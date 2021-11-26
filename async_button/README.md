@@ -1,11 +1,15 @@
 # async_button
 
+
 Getting Started 
 Include the package:
 
+```
   async_button_builder: <latest_version>
-Wrap the builder around a button, passing the onPressed and child element to builder instead of the button directly. These two are the only required fields.
+ ```
 
+
+```
 AsyncButtonBuilder(
   child: Text('Click Me'),
   onPressed: () async {
@@ -18,11 +22,13 @@ AsyncButtonBuilder(
     );
   },
 ),
+```
 
 
-The fourth value in the builder allows you listen to the loading state. This can be used to conditionally style the button. This package depends freezed in order to create a sealed union to better handle the possible states.
-
-AsyncButtonBuilder(
+  ![alt text](https://github.com/Nolence/async_button_builder/blob/main/screenshots/ezgif-7-61c436edaec2.gif?raw=true)
+  
+  ```
+  AsyncButtonBuilder(
   child: Text('Click Me'),
   loadingWidget: Text('Loading...'),
   onPressed: () async {
@@ -49,17 +55,13 @@ AsyncButtonBuilder(
     );
   },
 ),
-
-
-You can also drive the state of the button yourself using the buttonState field:
-
-AsyncButtonBuilder(
-  buttonState: ButtonState.completing(),
-  // ...
-),
-async_button_builder even works for custom buttons. You can define your own widgets for loading, error, and completion as well as define the transitions between them. This example is a little verbose but shows some of what's possible.
-
-AsyncButtonBuilder(
+```
+  
+  
+  ![alt text](https://github.com/Nolence/async_button_builder/blob/main/screenshots/ezgif-7-a971c6afaabf.gif?raw=true)
+    
+  ```  
+  AsyncButtonBuilder(
   child: Padding(
     padding: const EdgeInsets.symmetric(
       horizontal: 16.0,
@@ -117,6 +119,6 @@ AsyncButtonBuilder(
     );
   },
 ),
-
-
-Issues and PR's welcome
+```
+   
+  ![alt text](https://github.com/Nolence/async_button_builder/blob/main/screenshots/ezgif-7-61c436edaec2.gif?raw=true)
