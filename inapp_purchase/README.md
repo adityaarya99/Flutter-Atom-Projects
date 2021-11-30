@@ -8,6 +8,8 @@ Include the package:
   in_app_purchase: <latest_version>
  ```
  
+ ![Device View](https://github.com/adityaarya99/adityaarya99.github.io/blob/master/screenshot/Device_view.png)
+ 
  ![Device View](Device_view.png)
  
 
