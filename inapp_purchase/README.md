@@ -8,7 +8,7 @@ Include the package:
   in_app_purchase: <latest_version>
  ```
  ```
-  intl: <latest_version>
+   intl: <latest_version>
  ```
  
  ```
