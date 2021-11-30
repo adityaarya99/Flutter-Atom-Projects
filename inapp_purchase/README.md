@@ -8,11 +8,8 @@ Include the package:
   in_app_purchase: <latest_version>
  ```
  
- ![Device View](https://github.com/adityaarya99/adityaarya99.github.io/blob/master/screenshot/Device_view.png)
+ <img width="316" alt="Device_view" src="https://user-images.githubusercontent.com/30201421/144037530-afe98cb9-c83d-42c0-ac43-bf2a1f405638.png">
  
- ![Device View](Device_view.png)
- 
-
 ```
 import 'dart:async';
 
