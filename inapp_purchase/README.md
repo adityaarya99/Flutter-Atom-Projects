@@ -7,21 +7,30 @@ Include the package:
 ```
   in_app_purchase: <latest_version>
  ```
+ ```
  STEP 1 :
+ ```
  <img width="1438" alt="appstore_manage" src="https://user-images.githubusercontent.com/30201421/144039083-4b80a09e-6533-4b37-a895-7e8fc859a073.png">
 
 
+```
  STEP 2 :
- <img width="709" alt="subscription_type" src="https://user-images.githubusercontent.com/30201421/144039140-aeee2e51-3d26-4f43-b42c-e2571753352b.png">
+ ```
+<img width="709" alt="subscription_type" src="https://user-images.githubusercontent.com/30201421/144039140-aeee2e51-3d26-4f43-b42c-e2571753352b.png">
  
- STEP 3 :
+```
+STEP 3 :
+ ```
 <img width="594" alt="product_id" src="https://user-images.githubusercontent.com/30201421/144039200-123b8f81-5c63-4695-b517-b6283d942dda.png">
 
-
+```
 Step 4 :
+```
 <img width="597" alt="subscription_group" src="https://user-images.githubusercontent.com/30201421/144039271-cf5e0417-fc66-47fe-9415-a075ffe2852f.png">
 
+```
 Final Result :
+```
 <img width="316" alt="Device_view" src="https://user-images.githubusercontent.com/30201421/144039321-f3a51fce-8f67-4330-bd89-b8b59c29b852.png">
 
 
