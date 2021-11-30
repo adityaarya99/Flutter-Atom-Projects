@@ -9,3 +9,5 @@ Include the package:
  ```
  
  ![alt text](https://github.com/adityaarya99/Flutter-Atom-Projects/inapp_purchase/screenshot/Device_view.png?raw=true)
+ 
+ ![screenshot](Device_view.png)
