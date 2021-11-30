@@ -7,7 +7,4 @@ Include the package:
 ```
   in_app_purchase: <latest_version>
  ```
- 
- ![alt text](https://github.com/adityaarya99/Flutter-Atom-Projects/inapp_purchase/screenshot/Device_view.png?raw=true)
- 
- ![Screenshot](Device_view.png)
+![Optional Text](../master/screenshot/Device_view.png)
