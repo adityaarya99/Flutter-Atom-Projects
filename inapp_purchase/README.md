@@ -33,6 +33,10 @@ Final Result : After adding the main code to project
 ```
 <img width="316" alt="Device_view" src="https://user-images.githubusercontent.com/30201421/144039321-f3a51fce-8f67-4330-bd89-b8b59c29b852.png">
 
+```
+- Do Remember to add Email in Sandbox Testing in User & Access section in App Store connect
+- Upload new version of build to app store & then Run the application.
+```
 
 ```
 import 'dart:async';
