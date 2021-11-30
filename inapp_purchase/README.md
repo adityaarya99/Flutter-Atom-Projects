@@ -1,4 +1,4 @@
-# IOS IN APP PURCHASE 
+# INAPP PURCHASE (IOS) 
 
 
 Getting Started 
