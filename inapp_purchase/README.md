@@ -7,4 +7,4 @@ Include the package:
 ```
   in_app_purchase: <latest_version>
  ```
-![Optional Text](../master/screenshot/Device_view.png)
+![Optional Text](Device_view.png)
