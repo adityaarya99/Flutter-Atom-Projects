@@ -8,6 +8,10 @@ Include the package:
   in_app_purchase: <latest_version>
  ```
  ```
+ intl: <latest_version>
+ ```
+ 
+ ```
  STEP 1 : Select Manange & Add In App Purchase
  ```
  <img width="1438" alt="appstore_manage" src="https://user-images.githubusercontent.com/30201421/144039083-4b80a09e-6533-4b37-a895-7e8fc859a073.png">
