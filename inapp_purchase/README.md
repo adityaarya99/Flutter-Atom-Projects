@@ -7,6 +7,9 @@ Include the package:
 ```
   in_app_purchase: <latest_version>
  ```
+ 
+ ![Device View](Device_view.png)
+ 
 
 ```
 import 'dart:async';
