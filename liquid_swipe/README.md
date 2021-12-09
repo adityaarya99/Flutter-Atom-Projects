@@ -8,7 +8,7 @@ Demonstrates how to use the liquid_swipe plugin.
 
 ```
 dependencies:
-liquid_swipe: ^1.1.0
+liquid_swipe: <latest_version>
 ```
 
 2. Get package from Pub:
