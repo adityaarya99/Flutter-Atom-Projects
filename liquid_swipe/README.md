@@ -27,8 +27,6 @@ import 'package:liquid_swipe/liquid_swipe.dart';
 
 ## Example
 
-![simulator_screenshot_1AEB5310-DA4B-4C79-A873-7855C95D7018](https://user-images.githubusercontent.com/30201421/145389915-b105c8df-4ffd-477e-9264-1672c682ad7f.png)
-
 * First, create a list of Containers.
 
 ```
@@ -176,3 +174,7 @@ final pages = [
 ```
 
 *Remember pages can only be containers.
+
+
+
+![simulator_screenshot_1AEB5310-DA4B-4C79-A873-7855C95D7018](https://user-images.githubusercontent.com/30201421/145389915-b105c8df-4ffd-477e-9264-1672c682ad7f.png)
