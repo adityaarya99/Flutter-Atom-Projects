@@ -1,16 +1,178 @@
-# liquid_swipe
+# liquid_swipe_example
 
-A new Flutter project.
+Demonstrates how to use the liquid_swipe plugin.
 
-## Getting Started
+## Usage
 
-This project is a starting point for a Flutter application.
+1. Add this to your pubspec.yaml
 
-A few resources to get you started if this is your first Flutter project:
+```
+dependencies:
+liquid_swipe: ^1.1.0
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+2. Get package from Pub:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter packages get
+```
+
+3. Import it in your file
+
+```
+import 'package:liquid_swipe/liquid_swipe.dart';
+
+```
+
+
+## Example
+
+![simulator_screenshot_1AEB5310-DA4B-4C79-A873-7855C95D7018](https://user-images.githubusercontent.com/30201421/145389915-b105c8df-4ffd-477e-9264-1672c682ad7f.png)
+
+* First, create a list of Containers.
+
+```
+final pages = [
+   Container(
+     color: Colors.pink,
+     child: Column(
+       crossAxisAlignment: CrossAxisAlignment.center,
+       mainAxisSize: MainAxisSize.max,
+       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+       children: <Widget>[
+         Image.asset(
+           'assets/1.png',
+           fit: BoxFit.cover,
+         ),
+         Padding(padding: const EdgeInsets.all(20.0)),
+         Column(
+           children: <Widget>[
+             new Text(
+               "Hi",
+               style: TextStyle(
+                   fontSize: 30,
+                   fontFamily: "Billy",
+                   fontWeight: FontWeight.w600),
+             ),
+             new Text(
+               "It's Me",
+               style: TextStyle(
+                   fontSize: 30,
+                   fontFamily: "Billy",
+                   fontWeight: FontWeight.w600),
+             ),
+             new Text(
+               "Sahdeep",
+               style: TextStyle(
+                   fontSize: 30,
+                   fontFamily: "Billy",
+                   fontWeight: FontWeight.w600),
+             ),
+           ],
+         )
+       ],
+     ),
+   ),
+   Container(
+     color: Colors.deepPurpleAccent,
+     child: Column(
+       crossAxisAlignment: CrossAxisAlignment.center,
+       mainAxisSize: MainAxisSize.max,
+       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+       children: <Widget>[
+         Image.asset(
+           'assets/1.png',
+           fit: BoxFit.cover,
+         ),
+         Padding(padding: const EdgeInsets.all(20.0)),
+         Column(
+           children: <Widget>[
+             new Text(
+               "Take a",
+               style: TextStyle(
+                   fontSize: 30,
+                   fontFamily: "Billy",
+                   fontWeight: FontWeight.w600),
+             ),
+             new Text(
+               "look at",
+               style: TextStyle(
+                   fontSize: 30,
+                   fontFamily: "Billy",
+                   fontWeight: FontWeight.w600),
+             ),
+             new Text(
+               "Liquid Swipe",
+               style: TextStyle(
+                   fontSize: 30,
+                   fontFamily: "Billy",
+                   fontWeight: FontWeight.w600),
+             ),
+           ],
+         )
+       ],
+     ),
+   ),
+   Container(
+     color: Colors.greenAccent,
+     child: Column(
+       crossAxisAlignment: CrossAxisAlignment.center,
+       mainAxisSize: MainAxisSize.max,
+       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+       children: <Widget>[
+         Image.asset(
+           'assets/1.png',
+           fit: BoxFit.cover,
+         ),
+         Padding(padding: const EdgeInsets.all(20.0)),
+         Column(
+           children: <Widget>[
+             new Text(
+               "Liked?",
+               style: TextStyle(
+                   fontSize: 30,
+                   fontFamily: "Billy",
+                   fontWeight: FontWeight.w600),
+             ),
+             new Text(
+               "Fork!",
+               style: TextStyle(
+                   fontSize: 30,
+                   fontFamily: "Billy",
+                   fontWeight: FontWeight.w600),
+             ),
+             new Text(
+               "Give Star!",
+               style: TextStyle(
+                   fontSize: 30,
+                   fontFamily: "Billy",
+                   fontWeight: FontWeight.w600),
+             ),
+           ],
+         )
+       ],
+     ),
+   ),
+ ];
+
+```
+
+
+* Second, just pass it to Liquid Swipe Widget.
+
+
+```
+ @override
+ Widget build(BuildContext context) {
+   return new MaterialApp(
+       home: new Scaffold(
+           body: LiquidSwipe(
+             pages: pages,
+             fullTransitionValue: 500,
+             enableSlideIcon: true,
+           )));
+ }
+
+```
+
+*Remember pages can only be containers.
